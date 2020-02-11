@@ -33,3 +33,17 @@ We continually tweak and adjust this template to help give you the best experien
 --------
 
 Happy coding!
+
+
+Images:
+
+1. Burj Khalifa - https://www.pexels.com/photo/blue-and-gray-high-rise-building-162031/ 
+2. Burj Al Arab - https://www.pexels.com/photo/burj-al-arab-dubai-2044434/ 
+3. Dubai Frame - https://pixabay.com/photos/dubai-picture-frame-museum-luxury-4265306/ 
+4. Ski Dubai - https://www.flickr.com/photos/petr-kadlec/4556008448 
+5. Alserkal Avenue - 
+6. La Mer - 
+7. Aquaventure - https://www.flickr.com/photos/travelourplanet/8973483064 
+8. Miracle Garden - https://www.pexels.com/photo/aerial-photography-of-park-with-airplane-1302991/ 
+9. Dubai Opera - https://unsplash.com/photos/iG4Ut-x8zH8 
+10. IMG Worlds of Adventure - 
