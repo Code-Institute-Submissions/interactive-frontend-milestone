@@ -42,8 +42,8 @@ Images:
 3. Dubai Frame - https://pixabay.com/photos/dubai-picture-frame-museum-luxury-4265306/ 
 4. Ski Dubai - https://www.flickr.com/photos/petr-kadlec/4556008448 
 5. Alserkal Avenue - 
-6. La Mer - 
+6. La Mer - https://amp.thenational.ae/image/policy:1.720345:1543666664/wk30-NOV-La-mer.jpg?f=16x9&w=1200&$p$f$w=6ee98ea 
 7. Aquaventure - https://www.flickr.com/photos/travelourplanet/8973483064 
 8. Miracle Garden - https://www.pexels.com/photo/aerial-photography-of-park-with-airplane-1302991/ 
 9. Dubai Opera - https://unsplash.com/photos/iG4Ut-x8zH8 
-10. IMG Worlds of Adventure - 
+10. IMG Worlds of Adventure - https://ui.cltpstatic.com/camp/images/ai/000/931/006/931006/published/w/img-worlds-of-adventures-1563266993-5.jpg 
