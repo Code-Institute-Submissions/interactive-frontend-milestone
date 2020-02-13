@@ -66,3 +66,8 @@ body, html {
 .social-links li a i:hover {
     background: #add8e6;
 }
+
+/* Map section */
+div#map {
+    height: 500px;
+    }

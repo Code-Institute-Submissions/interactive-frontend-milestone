@@ -19,21 +19,27 @@
         </div>
     </div>
     
-    <div class="container-fluid">
+    <div class="container-fluid midsection">
         <div class="row">
-            <div class="col-xs-12 col-md-6"> 
-                <p>Lorem ipsum. Map?</p>
+            <div class="col-xs-12 col-md-6 map-section"> 
+                <div class="row">
+                    <div class="col-12">
+                        <p>Dubai's Top 10 Landmarks</p>
+                    </div>
+                </div>
+                <div id="map"></div>
             </div>
-            <div class="col-xs-12 col-md-6"> 
-                <p>Lorem ipsum. Image?</p>
-            </div>
+            
+            <div class="col-xs-12 col-md-6 image-section"> 
+                <p>Lorem ipsum. Image?</p> 
+            </div> 
         </div>
 
     </div>
         
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 text-section">
                 <p>Lorem ipsum. Info text?</p>
             </div>
         </div>
@@ -73,7 +79,23 @@
         </div>
     </footer>
     
-    
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 11,
+                center: {
+                    lat: 25.132115,
+                    lng: 55.276106
+                }
+            });
+        }
+    </script>
+    <script 
+        src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
+    </script>
+    <script 
+        async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvOLG7wL3vEgq0cRv0weiXpSOuzI7hubw&callback=initMap">
+    </script>
 
 </body>
 </html>
