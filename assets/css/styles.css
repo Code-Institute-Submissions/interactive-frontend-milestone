@@ -71,3 +71,7 @@ body, html {
 div#map {
     height: 500px;
     }
+
+.map-title {
+    text-align: center;
+}

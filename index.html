@@ -24,7 +24,7 @@
             <div class="col-xs-12 col-md-6 map-section"> 
                 <div class="row">
                     <div class="col-12">
-                        <p>Dubai's Top 10 Landmarks</p>
+                        <h3 class="map-title">Dubai's Top 10 Landmarks</h3>
                     </div>
                 </div>
                 <div id="map"></div>
@@ -88,7 +88,31 @@
                     lng: 55.276106
                 }
             });
-        }
+
+        var labels = 'ABCDEFGHIJK';
+
+        var markers = locations.map(function(location, i) {
+          return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length]
+          });
+        });
+
+        var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+      }
+      var locations = [
+        {lat: 25.198749, lng: 55.274548},
+        {lat: 25.141671, lng: 55.185472},
+        {lat: 25.235792, lng: 55.300535},
+        {lat: 25.118602, lng: 55.198483},
+        {lat: 25.142365, lng: 55.226111},
+        {lat: 25.228746, lng: 55.258280},
+        {lat: 25.133884, lng: 55.120079},
+        {lat: 25.060550, lng: 55.244550},
+        {lat: 25.196004, lng: 55.272136},
+        {lat: 25.082455, lng: 55.318071}
+      ]
     </script>
     <script 
         src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
@@ -96,6 +120,8 @@
     <script 
         async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvOLG7wL3vEgq0cRv0weiXpSOuzI7hubw&callback=initMap">
     </script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js">
+    <script type="text/javascript" src="markerclusterer.js"></script>
 
 </body>
 </html>
