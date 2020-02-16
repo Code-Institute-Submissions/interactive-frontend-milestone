@@ -79,3 +79,13 @@ div#map {
 .map-section{
     padding-top: 10px;
 }
+
+/* Info section */
+
+.text-section{
+    text-align: center;
+}
+
+.text-title{
+    text-align: center;
+}
