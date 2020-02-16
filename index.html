@@ -17,7 +17,7 @@
             <p>Scroll down to learn more...</p>
             <p><i class="fa fa-arrow-circle-down"></i></p>
         </div>
-    </div>
+    </div> 
     
     <div class="container-fluid midsection">
         <div class="row">
@@ -113,6 +113,16 @@
         {lat: 25.196004, lng: 55.272136},
         {lat: 25.082455, lng: 55.318071}
       ]
+    </script>
+
+    <script>
+        var infowindow = new google.maps.InfoWindow({
+            content:"Hello World!"
+        });
+
+        google.maps.event.addListener(marker, 'dblclick', function() {
+            infowindow.open(map,marker);
+        });
     </script>
     <script 
         src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
