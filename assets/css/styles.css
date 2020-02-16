@@ -44,6 +44,7 @@ body, html {
 .social-media{
     position: absolute;
     right: 0px;
+    padding-top: 10px;
 }
 
 .social-links{
@@ -84,8 +85,13 @@ div#map {
 
 .text-section{
     text-align: center;
+    padding-top: 10px;
 }
 
 .text-title{
     text-align: center;
+}
+
+.info {
+    display:none;
 }
