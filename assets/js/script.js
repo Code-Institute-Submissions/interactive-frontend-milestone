@@ -1,43 +1,24 @@
 
   $(document).ready(function() {
-      $(".bktitle").click(function(){
-        $(".bkinfo").toggle();
-    });
-
-    $(".bajtitle").click(function(){
-        $(".bajinfo").toggle();
-    });
-
-    $(".frametitle").click(function(){
-        $(".frameinfo").toggle();
-    });
-
-    $(".skititle").click(function(){
-        $(".skiinfo").toggle();
-    });
-
-    $(".avenuetitle").click(function(){
-        $(".avenueinfo").toggle();
-    });
-
-    $(".lamertitle").click(function(){
-        $(".lamerinfo").toggle();
-    });
-
-    $(".aquatitle").click(function(){
-        $(".aquainfo").toggle();
-    });
-
-    $(".miracletitle").click(function(){
-        $(".miracleinfo").toggle();
-    });
-
-    $(".operatitle").click(function(){
-        $(".operainfo").toggle();
-    });
-
-    $(".imgtitle").click(function(){
-        $(".imginfo").toggle();
-    });
+    
 
   });
+
+  var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
