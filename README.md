@@ -40,9 +40,9 @@ Images:
 1. Burj Khalifa - https://www.pexels.com/photo/blue-and-gray-high-rise-building-162031/ 
 2. Burj Al Arab - https://www.pexels.com/photo/burj-al-arab-dubai-2044434/ 
 3. Dubai Frame - https://pixabay.com/photos/dubai-picture-frame-museum-luxury-4265306/ 
-4. Ski Dubai - https://www.flickr.com/photos/petr-kadlec/4556008448 
-5. Alserkal Avenue - 
-6. La Mer - https://amp.thenational.ae/image/policy:1.720345:1543666664/wk30-NOV-La-mer.jpg?f=16x9&w=1200&$p$f$w=6ee98ea 
+4. Ski Dubai - https://www.kempinski.com/en/dubai/mall-of-the-emirates/local-information/family-adventures/ski-dubai/ 
+5. Alserkal Avenue - https://www.timeoutdubai.com/culture/art/394647-free-al-quoz-arts-fest-resturns-to-alserkal-avenue 
+6. La Mer - https://www.bayut.com/mybayut/la-mer-dubai-opening-restaurants-beach/ 
 7. Aquaventure - https://www.flickr.com/photos/travelourplanet/8973483064 
 8. Miracle Garden - https://www.pexels.com/photo/aerial-photography-of-park-with-airplane-1302991/ 
 9. Dubai Opera - https://unsplash.com/photos/iG4Ut-x8zH8 
