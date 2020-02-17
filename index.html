@@ -163,6 +163,7 @@
     </footer>
     
     <script>
+        
         function initMap() {
             var map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 11,
@@ -174,6 +175,49 @@
 
         var labels = 'ABCDEFGHIJK';
 
+        var locations = [
+            {lat: 25.197440, 
+            lng: 55.274409,
+            "name": "Burj Khalifa"
+            },
+            {lat: 25.141404, 
+            lng: 55.185354,
+            "name": "Burj Al Arab"
+            },
+            {lat: 25.235764, 
+            lng: 55.300364,
+            "name": "Dubai Frame"
+            },
+            {lat: 25.117398, 
+            lng: 55.198322,
+            "name": "Ski Dubai"
+            },
+            {lat: 25.141822, 
+            lng: 55.226122,
+            "name": "Alserkal Avenue"
+            },
+            {lat: 25.228941, 
+            lng: 55.258228,
+            "name": "La Mer"
+            },
+            {lat: 25.133709, 
+            lng: 55.120036,
+            "name": "Aquaventure"
+            },
+            {lat: 25.060124, 
+            lng: 55.244465,
+            "name": "Dubai Miracle Garden"
+            },
+            {lat: 25.195733, 
+            lng: 55.271890,
+            "name": "Dubai Opera" 
+            },
+            {lat: 25.082261, 
+            lng: 55.318071,
+            "name": "IMG Worlds of Adventure"
+            }
+        ]
+
         var markers = locations.map(function(location, i) {
           return new google.maps.Marker({
             position: location,
@@ -182,32 +226,17 @@
         });
 
         var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'}); 
+
+        let infowindow = new google.maps.InfoWindow();
+
+
+    
       }
-      var locations = [
-        {lat: 25.197440, lng: 55.274409},
-        {lat: 25.141404, lng: 55.185354},
-        {lat: 25.235764, lng: 55.300364},
-        {lat: 25.117398, lng: 55.198322},
-        {lat: 25.141822, lng: 55.226122},
-        {lat: 25.228941, lng: 55.258228},
-        {lat: 25.133709, lng: 55.120036},
-        {lat: 25.060124, lng: 55.244465},
-        {lat: 25.195733, lng: 55.271890},
-        {lat: 25.082261, lng: 55.318071}
-      ]
+      
     </script>
-
+    
     <script>
-        var infowindow = new google.maps.InfoWindow({
-            content:"Hello World!"
-        });
-
-        google.maps.event.addListener(marker, 'dblclick', function() {
-            infowindow.open(map,marker);
-        });
-    </script>
-    <script 
         src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
     </script>
     <script 
