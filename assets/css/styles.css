@@ -116,8 +116,8 @@ h3 {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  padding: 5px 18px;
-  background-color: white;
+  padding: 10px 18px;
+  background-color: grey;
   display: none;
   overflow: hidden;
 }
