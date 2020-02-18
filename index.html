@@ -199,16 +199,16 @@
             },
             {lat: 25.195733, 
             lng: 55.271890,
-            "name": "Dubai Opera",
+            "name": "Dubai Opera - ",
             "description": "Hello there!"
             },
             {lat: 25.082261, 
             lng: 55.318071,
-            "name": "IMG Worlds of Adventure",
+            "name": "IMG Worlds of Adventure: ",
             "description": "One of the world’s largest indoor theme parks, IMG Worlds of Adventure is spread out over 1.5 million square feet. The park first opened in 2016, and is split up into five separate zones, with rides, restaurants and shops based on characters from Marvel, Cartoon Network, and more."
             }
         ]
-        
+
         function initMap() {
             var map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 11,
@@ -228,7 +228,7 @@
             var marker = new google.maps.Marker({
                 position: myLatlng,
                 map: map,
-                title: locations.title
+                title: data.name
             });
             (function (marker, data) {
                 google.maps.event.addListener(marker, "click", function (e) {
