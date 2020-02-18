@@ -164,6 +164,51 @@
     
     <script>
         
+        var locations = [
+            {lat: 25.197440, 
+            lng: 55.274409,
+            "name": "Burj Khalifa",
+            },
+            {lat: 25.141404, 
+            lng: 55.185354,
+            "name": "Burj Al Arab",
+            },
+            {lat: 25.235764, 
+            lng: 55.300364,
+            "name": "Dubai Frame",
+            },
+            {lat: 25.117398, 
+            lng: 55.198322,
+            "name": "Ski Dubai",
+            },
+            {lat: 25.141822, 
+            lng: 55.226122,
+            "name": "Alserkal Avenue",
+            },
+            {lat: 25.228941, 
+            lng: 55.258228,
+            "name": "La Mer",
+            },
+            {lat: 25.133709, 
+            lng: 55.120036,
+            "name": "Aquaventure",
+            },
+            {lat: 25.060124, 
+            lng: 55.244465,
+            "name": "Dubai Miracle Garden",
+            },
+            {lat: 25.195733, 
+            lng: 55.271890,
+            "name": "Dubai Opera",
+            "description": "Hello there!"
+            },
+            {lat: 25.082261, 
+            lng: 55.318071,
+            "name": "IMG Worlds of Adventure",
+            "description": "One of the world’s largest indoor theme parks, IMG Worlds of Adventure is spread out over 1.5 million square feet. The park first opened in 2016, and is split up into five separate zones, with rides, restaurants and shops based on characters from Marvel, Cartoon Network, and more."
+            }
+        ]
+        
         function initMap() {
             var map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 11,
@@ -173,76 +218,39 @@
                 }
             });
 
-        var labels = 'ABCDEFGHIJK';
-
-        var locations = [
-            {lat: 25.197440, 
-            lng: 55.274409,
-            "name": "Burj Khalifa"
-            },
-            {lat: 25.141404, 
-            lng: 55.185354,
-            "name": "Burj Al Arab"
-            },
-            {lat: 25.235764, 
-            lng: 55.300364,
-            "name": "Dubai Frame"
-            },
-            {lat: 25.117398, 
-            lng: 55.198322,
-            "name": "Ski Dubai"
-            },
-            {lat: 25.141822, 
-            lng: 55.226122,
-            "name": "Alserkal Avenue"
-            },
-            {lat: 25.228941, 
-            lng: 55.258228,
-            "name": "La Mer"
-            },
-            {lat: 25.133709, 
-            lng: 55.120036,
-            "name": "Aquaventure"
-            },
-            {lat: 25.060124, 
-            lng: 55.244465,
-            "name": "Dubai Miracle Garden"
-            },
-            {lat: 25.195733, 
-            lng: 55.271890,
-            "name": "Dubai Opera" 
-            },
-            {lat: 25.082261, 
-            lng: 55.318071,
-            "name": "IMG Worlds of Adventure"
-            }
-        ]
-
-        var markers = locations.map(function(location, i) {
-          return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length]
-          });
-        });
-
-        var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'}); 
-
-        let infowindow = new google.maps.InfoWindow();
+            var infoWindow = new google.maps.InfoWindow();
+            var latlngbounds = new google.maps.LatLngBounds();
+            
+ 
+        for (var i = 0; i < locations.length; i++) {
+            var data = locations[i]
+            var myLatlng = new google.maps.LatLng(data.lat, data.lng);
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                title: locations.title
+            });
+            (function (marker, data) {
+                google.maps.event.addListener(marker, "click", function (e) {
+                    infoWindow.setContent("<div style = 'width:200px;min-height:40px'>" + data.name + data.description + "</div>");
+                    infoWindow.open(map, marker);
+                });
+            })(marker, data);
+            latlngbounds.extend(marker.position);
+        }
+        var bounds = new google.maps.LatLngBounds();
+        map.setCenter(latlngbounds.getCenter());
+        map.fitBounds(latlngbounds);
+        
 
 
-    
       }
       
     </script>
     
-    <script>
-        src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
-    </script>
-    <script 
-        async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvOLG7wL3vEgq0cRv0weiXpSOuzI7hubw&callback=initMap">
-    </script>
-    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js">
+    <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvOLG7wL3vEgq0cRv0weiXpSOuzI7hubw&callback=initMap"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
     <script type="text/javascript" src="markerclusterer.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 	<script src="assets/js/script.js"></script>
