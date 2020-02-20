@@ -21,7 +21,18 @@
     
     <div class="container-fluid midsection">
         <div class="row">
-            <div class="col-12  map-section"> 
+            <div class="col-xs-12 col-md-6 offset-md-3 intro-section"> 
+            <h3 class="intro-title">A Guide to Dubai</h3>
+            <p>
+            Even if you’ve never been to Dubai before, you’ve probably heard something about it. It’s a city that breaks records all the time. It’s home to everything from the world’s tallest building to the world’s largest sweet shop. If you’re planning on visiting Dubai, though, you might want to know about the best places to go. And if that’s the case, then you’re in luck. This website has all the information you need to know about Dubai’s top ten tourist attractions, from the Burj Khalifa to IMG Worlds of Adventure. Read on to find out more.
+            </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid midsection">
+        <div class="row">
+            <div class="col-12 map-section"> 
                 <div class="row">
                     <div class="col-12">
                         <h3 class="map-title">Dubai's Top 10 Landmarks</h3>
@@ -229,7 +240,7 @@
             "title": "IMG Worlds of Adventure",
             "name": "IMG Worlds of Adventure: ",
             "description": "One of the world’s largest indoor theme parks, IMG Worlds of Adventure is spread out over 1.5 million square feet. The park first opened in 2016, and is split up into five separate zones, with rides, restaurants and shops based on characters from Marvel, Cartoon Network, and more.",
-            "image": "assets/images/IMGWoA.jpg"
+            "image": "assets/images/imgworld.jpg"
             }
         ]
 
@@ -256,7 +267,7 @@
             });
             (function (marker, data) {
                 google.maps.event.addListener(marker, "click", function (e) {
-                    infoWindow.setContent("<div style = 'width:250px;height:250px'>" + data.name + data.description + "<div style = 'max-width:50px;max-height:50px'>" + "<img src="+data.image+">" + "</div>" + "</div>");
+                    infoWindow.setContent("<div style = 'width:250px;height:260px'>" + data.name + data.description + "<div style = 'width:250px;height:250px'>" + "<img src="+data.image+">" + "</div>" + "</div>");
                     infoWindow.open(map, marker);
                 });
             })(marker, data);
