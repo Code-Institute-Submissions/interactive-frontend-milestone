@@ -29,6 +29,11 @@ body, html {
     font-size: 62px;
 }
 
+.arrowlogo{
+    font-size: 62px;
+    cursor: pointer;
+}
+
 /* Footer section */
 .footer {
     background-color: #294F73;
