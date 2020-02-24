@@ -35,6 +35,8 @@ We continually tweak and adjust this template to help give you the best experien
 Happy coding!
 
 
+Tourism statistics from the Tourism In Dubai Wikipedia page - https://en.wikipedia.org/wiki/Tourism_in_Dubai
+
 Images:
 
 1. Burj Khalifa - https://www.pexels.com/photo/blue-and-gray-high-rise-building-162031/ 
