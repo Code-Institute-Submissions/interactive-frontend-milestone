@@ -80,8 +80,8 @@ h3 {
 }
 
 .accordion {
-  background-color: #a4d9e1;
-  color: #444;
+  background-color: #7899b9;
+  color: black;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -92,8 +92,8 @@ h3 {
 }
 
 .active, .accordion:hover {
-  background-color: #0ebdd6;
-  color: black;
+  background-color: #294F73;
+  color: white;
 }
 
 .panel {
@@ -106,7 +106,8 @@ h3 {
 /* Background image */
 
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/dubaimap.jpg");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/dubaimap.jpg");*/
+    background-color: #608db9
     
 }
 
@@ -116,10 +117,6 @@ body {
     color: #fafafa;
     min-height: 90px;
     margin: 0;
-}
-
-.social-header{
-    float:right; 
 }
 
 .social-media{
@@ -141,10 +138,10 @@ body {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #8f8f8f;
+    background: #0d2d4b;
     transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    background: #add8e6;
+    background: #608db9;
 }
