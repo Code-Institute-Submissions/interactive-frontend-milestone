@@ -3,6 +3,8 @@ $(document).ready(function() {
 
   });
 
+
+/* Accordion panel to show and hide information in the information section */
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -19,3 +21,8 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+/*Page scrolls down if arrow in header is clicked */
+
+$(".arrowlogo").click(function() {
+    $("html, body").animate({scrollTop: $(".intro-title").offset().top}, 2000);
+});

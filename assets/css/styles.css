@@ -80,7 +80,7 @@ h3 {
 }
 
 .accordion {
-  background-color: #7899b9;
+  background-color: #608db9;
   color: black;
   cursor: pointer;
   padding: 18px;
@@ -98,7 +98,7 @@ h3 {
 
 .panel {
   padding: 5px 22px;
-  background-color: lightgrey;
+  background-color: #d8b586;
   display: none;
   overflow: hidden;
 }
@@ -107,7 +107,7 @@ h3 {
 
 body {
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/dubaimap.jpg");*/
-    background-color: #608db9
+    background-color: #2d4256
     
 }
 
