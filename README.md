@@ -12,7 +12,7 @@ The goal of the website, as outlined in the site’s introduction, is to be a gu
 
 A lot of tourists also don’t know where places are in relation to other places. If they don’t leave their hotel, they might not get a sense of where they are. With the map, I can show where the landmarks are, and have tried to spread the landmarks out, choosing places on the coast as well as in the city centre.
 
-A wireframe for the website can be found below, or at assets/wireframes/milestone2wireframe.pdf. ![Wireframe of website](/assets/wireframes/milestone2wireframe.pdf)
+A wireframe for the website can be found below, or at assets/wireframes/milestone2wireframe.pdf. ![Wireframe of website](assets/wireframes/milestone2wireframe.pdf)
 
 ### User Stories
 For users:
