@@ -17,6 +17,13 @@ To do this, I’ve created a website that’s a guide to Dubai, a city in the UA
 
 ## Features
 
+### Existing Features
+
+* Arrow icon – When the user clicks on the down arrow in the site’s header, the page will scroll down to show more of the content. The code for this can be found at assets/js/accordion.js.
+
+* Map of Dubai – made with a Google Maps API. The code for the map can be found at assets/js/map.js.
+
+* Accordion panel – this gives more information on the top 10 landmarks. When the name is clicked, the panel of information will appear, and disappear when clicked again. The code for this can be found at assets/js/accordion.js.
 
 ## Technologies Used
 
@@ -60,5 +67,5 @@ The links to the Visit Dubai social media pages in the footer are Dubai’s offi
 The tourism statistics from the Tourism In Dubai Wikipedia page - https://en.wikipedia.org/wiki/Tourism_in_Dubai
 
 ### Acknowledgements
-I received inspiration and guidance for this project from my mentor, Antonija Šimić.
+I received inspiration and guidance for this project from my mentors, Antonija Šimić.
 
