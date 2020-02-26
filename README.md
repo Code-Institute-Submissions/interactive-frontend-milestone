@@ -1,6 +1,3 @@
-`python3 -m http.server`
-
-
 # Dominic Beesley’s 2nd Milestone Project
 
 The aim of this project is to build an interactive front-end site, which should respond to users’ actions, allowing users to actively engage with data, and alter the way the site displays this information in order to achieve their preferred goals, using all the technologies that I've learned about so far, for Code Institute. 
@@ -53,6 +50,9 @@ Accordion panel – this gives more information on the top 10 landmarks. When th
 
 ## Testing <hr>
 I tested the website on multiple browsers and screen sizes, to ensure that it worked and displayed all the content correctly for the user, and that the contents were responsive on different screen sizes. I also got several friends and members of my family to test the website and ensure that everything worked as it was meant to for them, and that they didn’t have any questions to be addressed.
+
+Using [Am I Responsive?](http://ami.responsivedesign.is/#), I was able to see how the website would look on different screen sizes.
+![Website on different devices](assets/images/responsive.jpg)
 
 ## Deployment <hr>
 The website is deployed using [GitHub Pages](https://pages.github.com/). 
