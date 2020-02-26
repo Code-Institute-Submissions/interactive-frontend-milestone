@@ -5,14 +5,13 @@ The aim of this project is to build an interactive front-end site, which should 
 To do this, I’ve created a website that’s a guide to Dubai, a city in the UAE. I used my knowledge of the city to do this, as I lived there for several years, and felt like I know more than the average tourist might know.
 
 ## UX <hr>
-
 The goal of the website, as outlined in the site’s introduction, is to be a guide for visitors to Dubai. Many visitors to Dubai don’t know of many landmarks other than the Burj Khalifa, for example, and with this website I aim to provide information on a wide range of landmarks that tourists might like to know about, from theme parks to art galleries. 
 
 A lot of tourists also don’t know where places are in relation to other places. If they don’t leave their hotel, they might not get a sense of where they are. With the map, I can show where the landmarks are, and have tried to spread the landmarks out, choosing places on the coast as well as in the city centre.
 
 A wireframe for the website can be found below, or at assets/wireframes/milestone2wireframe.pdf. ![Wireframe of website](assets/wireframes/milestone2wireframe.jpg)
 
-### User Stories <hr>
+### User Stories
 For users:
 * As a user, I want to learn more about Dubai.
 * As a user, I want to learn about Dubai tourist attractions.
