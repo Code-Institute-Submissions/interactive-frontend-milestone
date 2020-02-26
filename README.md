@@ -7,14 +7,15 @@ The aim of this project is to build an interactive front-end site, which should 
 
 To do this, I’ve created a website that’s a guide to Dubai, a city in the UAE. I used my knowledge of the city to do this, as I lived there for several years, and felt like I know more than the average tourist might know.
 
-## UX
+## UX <hr>
+
 The goal of the website, as outlined in the site’s introduction, is to be a guide for visitors to Dubai. Many visitors to Dubai don’t know of many landmarks other than the Burj Khalifa, for example, and with this website I aim to provide information on a wide range of landmarks that tourists might like to know about, from theme parks to art galleries. 
 
 A lot of tourists also don’t know where places are in relation to other places. If they don’t leave their hotel, they might not get a sense of where they are. With the map, I can show where the landmarks are, and have tried to spread the landmarks out, choosing places on the coast as well as in the city centre.
 
 A wireframe for the website can be found below, or at assets/wireframes/milestone2wireframe.pdf. ![Wireframe of website](assets/wireframes/milestone2wireframe.jpg)
 
-### User Stories
+### User Stories <hr>
 For users:
 * As a user, I want to learn more about Dubai.
 * As a user, I want to learn about Dubai tourist attractions.
@@ -29,7 +30,7 @@ For the site owner:
 * As the site owner, I want to educate the user about the attractions.
 
 
-## Features
+## Features <hr>
 ### Existing Features
 Arrow icon – When the user clicks on the down arrow in the site’s header, the page will scroll down to show more of the content. The code for this can be found at assets/js/accordion.js.
 
@@ -37,7 +38,7 @@ Map of Dubai – made with the [Google Maps API](https://developers.google.com/m
 
 Accordion panel – this gives more information on the top 10 landmarks. When the name is clicked, the panel of information will appear, and disappear when clicked again. The code for this can be found at assets/js/accordion.js.
 
-## Technologies Used
+## Technologies Used <hr>
 ### Programming Languages
 * [HTML](https://www.w3schools.com/html/default.asp) – for creating the structure and layout of the website.
 * [CSS](https://www.w3.org/Style/CSS/) – for styling the website’s content.
@@ -50,10 +51,10 @@ Accordion panel – this gives more information on the top 10 landmarks. When th
 * [FontAwesome](https://fontawesome.com/) – I used the font ‘Acme’ for the text in the header and the titles. 
 
 
-## Testing
+## Testing <hr>
 I tested the website on multiple browsers and screen sizes, to ensure that it worked and displayed all the content correctly for the user, and that the contents were responsive on different screen sizes. I also got several friends and members of my family to test the website and ensure that everything worked as it was meant to for them, and that they didn’t have any questions to be addressed.
 
-## Deployment
+## Deployment <hr>
 The website is deployed using [GitHub Pages](https://pages.github.com/). 
 
 On the page for the GitHub repository for this project, I went to Settings.
@@ -63,7 +64,7 @@ I scrolled down to the GitHub Pages section.
 I chose Master Branch as the source, and this gave me the link to where the site is hosted on GitHub Pages. It’s deployed from the master branch, and will update automatically.
 
 
-## Credits
+## Credits <hr>
 
 ### Content
 I worked out how to make the accordion panel in th information section work with the help of [W3schools.com]( https://www.w3schools.com/howto/howto_js_accordion.asp).
