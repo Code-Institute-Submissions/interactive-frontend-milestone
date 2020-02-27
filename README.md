@@ -8,7 +8,7 @@ The project can be found at [https://dombeesley.github.io/interactive-frontend-m
 
 ## UX <hr>
 
-![Website on different devices](assets/images/responsive.jpg)
+![Website on different devices](assets/images/amiresponsive.png)
 
 My website is a guide to Dubai. I used my knowledge of the city to create it, as I lived there for several years, and felt like I know more than the average tourist might know.
 
