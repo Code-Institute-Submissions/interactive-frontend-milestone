@@ -1,3 +1,5 @@
+/* Google Map */
+
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 11,
@@ -10,6 +12,7 @@ function initMap() {
     var infoWindow = new google.maps.InfoWindow();
     var latlngbounds = new google.maps.LatLngBounds();
 
+/* Information for Map Markers */
     var locations = [
     {lat: 25.197440, 
     lng: 55.274409,
@@ -83,7 +86,7 @@ function initMap() {
     }
 ]
             
- 
+ /* Function for Info Windows on the Map */
     for (var i = 0; i < locations.length; i++) {
         var data = locations[i]
         var myLatlng = new google.maps.LatLng(data.lat, data.lng);
