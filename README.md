@@ -2,7 +2,7 @@
 
 The aim of this project is to build an interactive front-end site, which should respond to users’ actions, allowing users to actively engage with data, and alter the way the site displays this information in order to achieve their preferred goals, using all the technologies that I've learned about so far, for Code Institute. 
 
-To do this, I’ve created a website that’s a guide four visitors to Dubai, a city in the UAE. 
+To do this, I’ve created a website that’s a guide for visitors to Dubai, a city in the UAE. 
 
 The project can be found at [https://dombeesley.github.io/interactive-frontend-milestone/](https://dombeesley.github.io/interactive-frontend-milestone/)
 
