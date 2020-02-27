@@ -74,13 +74,14 @@ Accordion panel – this gives more information on the top 10 landmarks. When th
 * I chose Master Branch as the source.
 * This gave me the link to where the site is hosted on GitHub Pages. 
 * The site is deployed from the master branch.
+* There are no differences between the deployed version of the site and the development version.
 * The site will update automatically.
 
 ## Credits <hr>
 
 ### Content
 * I worked out how to make the accordion panel in the information section work with the help of [W3schools.com]( https://www.w3schools.com/howto/howto_js_accordion.asp).
-* The code at [](https://www.aspsnippets.com/Articles/Google-Maps-API-V3-Populate-Google-Maps-from-array-of-Markers.aspx) helped me to figure out how to display information in multiple in Info Windows on Google Maps.
+* The code [on this site](https://www.aspsnippets.com/Articles/Google-Maps-API-V3-Populate-Google-Maps-from-array-of-Markers.aspx) helped me to figure out how to display information in multiple in Info Windows on Google Maps.
 * To work out which colours would work well on the website together, I used [Color Scheme Designer](http://colorschemedesigner.com/csd-3.5/). I wanted to use blue, as there was a lot of blue in the header image, and this website allowed me to find complementary colours.
 * I used [W3C Markup Validation service](https://validator.w3.org/) to validate the HTML code.
 * I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate the CSS code.
