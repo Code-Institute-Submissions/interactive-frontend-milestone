@@ -5,6 +5,9 @@ The aim of this project is to build an interactive front-end site, which should 
 To do this, I’ve created a website that’s a guide to Dubai, a city in the UAE. I used my knowledge of the city to do this, as I lived there for several years, and felt like I know more than the average tourist might know.
 
 ## UX <hr>
+
+![Website on different devices](assets/images/responsive.jpg)
+
 The goal of the website, as outlined in the site’s introduction, is to be a guide for visitors to Dubai. Many visitors to Dubai don’t know of many landmarks other than the Burj Khalifa, for example, and with this website I aim to provide information on a wide range of landmarks that tourists might like to know about, from theme parks to art galleries. 
 
 A lot of tourists also don’t know where places are in relation to other places. If they don’t leave their hotel, they might not get a sense of where they are. With the map, I can show where the landmarks are, and have tried to spread the landmarks out, choosing places on the coast as well as in the city centre.
@@ -46,12 +49,16 @@ Accordion panel – this gives more information on the top 10 landmarks. When th
 ### Fonts
 * [FontAwesome](https://fontawesome.com/) – I used the font ‘Acme’ for the text in the header and the titles. 
 
+### Websites
+* [Am I Responsive?](http://ami.responsivedesign.is/#) - to test responsiveness of the site.
+* [Color Scheme Designer](http://colorschemedesigner.com/csd-3.5/) - to choose the colours of the website.
+* [W3C Markup Validation service](https://validator.w3.org/) - to check the HTML.
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - to check the CSS.
 
 ## Testing <hr>
 I tested the website on multiple browsers and screen sizes, to ensure that it worked and displayed all the content correctly for the user, and that the contents were responsive on different screen sizes. I also got several friends and members of my family to test the website and ensure that everything worked as it was meant to for them, and that they didn’t have any questions to be addressed.
 
 Using [Am I Responsive?](http://ami.responsivedesign.is/#), I was able to see how the website would look on different screen sizes.
-![Website on different devices](assets/images/responsive.jpg)
 
 ## Deployment <hr>
 The website is deployed using [GitHub Pages](https://pages.github.com/). 
@@ -66,7 +73,7 @@ I chose Master Branch as the source, and this gave me the link to where the site
 ## Credits <hr>
 
 ### Content
-I worked out how to make the accordion panel in th information section work with the help of [W3schools.com]( https://www.w3schools.com/howto/howto_js_accordion.asp).
+I worked out how to make the accordion panel in the information section work with the help of [W3schools.com]( https://www.w3schools.com/howto/howto_js_accordion.asp).
 
 To work out which colours would work well on the website together, I used [Color Scheme Designer](http://colorschemedesigner.com/csd-3.5/). I wanted to use blue, as there was a lot of blue in the header image, and this website allowed me to find complementary colours.
 
