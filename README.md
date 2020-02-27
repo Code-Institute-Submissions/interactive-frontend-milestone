@@ -2,13 +2,17 @@
 
 The aim of this project is to build an interactive front-end site, which should respond to users’ actions, allowing users to actively engage with data, and alter the way the site displays this information in order to achieve their preferred goals, using all the technologies that I've learned about so far, for Code Institute. 
 
-To do this, I’ve created a website that’s a guide to Dubai, a city in the UAE. I used my knowledge of the city to do this, as I lived there for several years, and felt like I know more than the average tourist might know.
+To do this, I’ve created a website that’s a guide four visitors to Dubai, a city in the UAE. 
+
+The project can be found at [https://dombeesley.github.io/interactive-frontend-milestone/](https://dombeesley.github.io/interactive-frontend-milestone/)
 
 ## UX <hr>
 
 ![Website on different devices](assets/images/responsive.jpg)
 
-The goal of the website, as outlined in the site’s introduction, is to be a guide for visitors to Dubai. Many visitors to Dubai don’t know of many landmarks other than the Burj Khalifa, for example, and with this website I aim to provide information on a wide range of landmarks that tourists might like to know about, from theme parks to art galleries. 
+My website is a guide to Dubai. I used my knowledge of the city to create it, as I lived there for several years, and felt like I know more than the average tourist might know.
+
+The goal of the website is to serve as a guide for visitors to Dubai. Many visitors to Dubai don’t know of many landmarks other than the Burj Khalifa, for example, and with this website I aim to provide information on a wide range of landmarks that tourists might like to know about, from theme parks to art galleries. 
 
 A lot of tourists also don’t know where places are in relation to other places. If they don’t leave their hotel, they might not get a sense of where they are. With the map, I can show where the landmarks are, and have tried to spread the landmarks out, choosing places on the coast as well as in the city centre.
 
@@ -27,7 +31,6 @@ For the site owner:
 * As the site owner, I want to make it clear that the website is about Dubai.
 * As the site owner, I want to let the user know where ten different tourist attractions are.
 * As the site owner, I want to educate the user about the attractions.
-
 
 ## Features <hr>
 ### Existing Features
@@ -56,31 +59,31 @@ Accordion panel – this gives more information on the top 10 landmarks. When th
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - to check the CSS.
 
 ## Testing <hr>
-I tested the website on multiple browsers and screen sizes, to ensure that it worked and displayed all the content correctly for the user, and that the contents were responsive on different screen sizes. I also got several friends and members of my family to test the website and ensure that everything worked as it was meant to for them, and that they didn’t have any questions to be addressed.
-
-Using [Am I Responsive?](http://ami.responsivedesign.is/#), I was able to see how the website would look on different screen sizes.
+* I tested the website on multiple browsers and screen sizes.
+* I tested the website on both Google Chrome and Safari, on both my laptop and iPhone.
+* This helped to ensure that the site worked and displayed all the content correctly for the user, and that the contents were responsive on different screen sizes. 
+* Using [Am I Responsive?](http://ami.responsivedesign.is/#), I was able to see how the website would look on different screen sizes.
+* I also got several friends and members of my family to test the website and ensure that everything worked as it was meant to for them, and that they didn’t have any questions to be addressed.
+* I validated the HTML code using the [W3C Markup Validation service](https://validator.w3.org/), and no errors were found.
+* I validated the CSS code using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), and no errors were found.
 
 ## Deployment <hr>
-The website is deployed using [GitHub Pages](https://pages.github.com/). 
-
-On the page for the GitHub repository for this project, I went to Settings.
-
-I scrolled down to the GitHub Pages section. 
-
-I chose Master Branch as the source, and this gave me the link to where the site is hosted on GitHub Pages. It’s deployed from the master branch, and will update automatically.
-
+* The website is deployed using [GitHub Pages](https://pages.github.com/). 
+* On the page for the GitHub repository for this project, I went to Settings.
+* I scrolled down to the GitHub Pages section. 
+* I chose Master Branch as the source.
+* This gave me the link to where the site is hosted on GitHub Pages. 
+* The site is deployed from the master branch.
+* The site will update automatically.
 
 ## Credits <hr>
 
 ### Content
-I worked out how to make the accordion panel in the information section work with the help of [W3schools.com]( https://www.w3schools.com/howto/howto_js_accordion.asp).
-
-To work out which colours would work well on the website together, I used [Color Scheme Designer](http://colorschemedesigner.com/csd-3.5/). I wanted to use blue, as there was a lot of blue in the header image, and this website allowed me to find complementary colours.
-
-I validated the HTML code using the [W3C Markup Validation service](https://validator.w3.org/), and no errors were found.
-
-I validated the CSS code using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), and no errors were found.
-
+* I worked out how to make the accordion panel in the information section work with the help of [W3schools.com]( https://www.w3schools.com/howto/howto_js_accordion.asp).
+* The code at [](https://www.aspsnippets.com/Articles/Google-Maps-API-V3-Populate-Google-Maps-from-array-of-Markers.aspx) helped me to figure out how to display information in multiple in Info Windows on Google Maps.
+* To work out which colours would work well on the website together, I used [Color Scheme Designer](http://colorschemedesigner.com/csd-3.5/). I wanted to use blue, as there was a lot of blue in the header image, and this website allowed me to find complementary colours.
+* I used [W3C Markup Validation service](https://validator.w3.org/) to validate the HTML code.
+* I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate the CSS code.
 
 ### Media
 The header image, of a Dubai skyline, is from [here](https://www.pexels.com/photo/architectural-design-architecture-buildings-business-618079/).
